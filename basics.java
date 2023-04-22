@@ -9,6 +9,7 @@ class IoBasics {
         System.out.println(num);
         System.out.println(name);
         System.out.println(person);
+        sc_str.close();
     }
 }
 /*nextFloat, nextBoolean(), nextLong() etc., */
