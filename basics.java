@@ -12,4 +12,4 @@ class IoBasics {
         sc_str.close();
     }
 }
-/*nextFloat, nextBoolean(), nextLong() etc., */
+/*nextFloat(), nextBoolean(), nextLong() etc., */
