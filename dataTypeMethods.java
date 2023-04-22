@@ -47,8 +47,8 @@ class dataTypeChangeMethods{
         int num = Integer.parseInt(value);   //Converts Str to int value
         int num1 = Character.getNumericValue(ch);  // Converts Character to Integer value
         char ch1 = Character.forDigit(number, 10);  //Converts Integer to Character
-        double dbl = Double.parseDouble(doubleNum);
-        float floatNum = Float.parseFloat(doubleNum);
+        double dbl = Double.parseDouble(doubleNum);   //Converts Str to Double
+        float floatNum = Float.parseFloat(doubleNum);  //Converts Str to Float
         System.out.println(num);
         System.out.println(num1);
         System.out.println(ch1);
