@@ -1,16 +1,17 @@
 import java.util.Scanner;
 
-class sumOfDigits {
-    public static void main(String[] args){
+class Main {
+    public static void main(String[] args) { 
         Scanner sc = new Scanner(System.in);
-        String num = sc.nextLine();
-        int result = 0;
+        String N = sc.next();
+        int length = N.length();
         int i = 0;
-        while(i<num.length()){
-            result = result + Character.getNumericValue(num.charAt(i));
-            i=i+1;
+        int output = 0;
+        while(i<length){
+            output = output+Character.getNumericValue(N.charAt(i));
+            i = i+1;
         }
-        System.out.println(result);
+        System.out.println(output);
         sc.close();
     }
 }
