@@ -5,7 +5,7 @@ class Main3 {
         String input = sc.next();
         switch(input){
             case "February":
-                System.out.println("28");
+                System.out.println("28"); //Month name
                 break;
             case "April":
                 System.out.println("30");
