@@ -33,3 +33,27 @@ class halfPyramid3{
         sc.close();
     }
 }
+
+
+class halfPyramid4{
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+        int M = sc.nextInt();
+        int sum=0;
+        int i=1;
+        while(i<=M){
+            sum=sum+i;
+            i++;
+        }
+        int startNo=sum+N-1;
+        for(int k=1; k<=M; k++){
+            for(int j=1;j<=k;j++){
+                System.out.print(startNo+" ");
+                startNo--;
+            }
+            System.out.println();
+        }
+        sc.close();
+    }
+}
