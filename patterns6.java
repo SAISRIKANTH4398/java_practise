@@ -69,3 +69,5 @@ class invertedPyramid2{
         sc.close();
     }
 }
+
+
