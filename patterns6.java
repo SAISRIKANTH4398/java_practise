@@ -53,3 +53,19 @@ class invertedTriangle{
         sc.close();
     }
 }
+
+
+class invertedPyramid2{
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+        for(int i=1; i<=N; i++){
+            System.out.print(" ".repeat(i-1));
+            for(int j=1; j<=N-i+1;j++){
+                System.out.print(j+" ");
+            }
+            System.out.println();
+        }
+        sc.close();
+    }
+}
