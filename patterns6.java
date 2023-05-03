@@ -71,3 +71,21 @@ class invertedPyramid2{
 }
 
 
+class fullPyramid{
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+        for(int i=1; i<=N; i++){
+            if(i==1){
+                System.out.println(" ".repeat(N-i)+i);
+            }else if(i==N){
+                for(int j=1; j<=i; j++){
+                    System.out.print(j+" ");
+                }
+            }else{
+                System.out.println(" ".repeat(N-i)+"1 "+"  ".repeat(i-2)+i);
+            }
+        }
+        sc.close();
+    }
+}
