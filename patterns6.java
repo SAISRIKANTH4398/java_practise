@@ -19,3 +19,25 @@ class halfPyramid{
         sc.close();
     }
 }
+
+
+class invertedPyramid{
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+        for(int i=1; i<=N; i++){
+            if(i==1){
+                for(int j=1;j<=N;j++){
+                    System.out.print(j+" ");
+                }
+                System.out.println();
+            }
+            else if(i==N){
+                System.out.println(" ".repeat(N-1)+1);
+            }else{
+                System.out.println(" ".repeat(i-1)+(1)+" "+"  ".repeat(N-i-1)+(N-i+1));
+            }
+        }
+        sc.close();
+    }
+}
