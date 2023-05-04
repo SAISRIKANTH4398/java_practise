@@ -53,3 +53,16 @@ class halfDiamond{
         sc.close();
     }
 }
+
+
+class fullPyramid{
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+        for(int i=1; i<=N; i++){
+            System.out.println("0 ".repeat(N-i)+ "1 ".repeat(2*N-1-2*(N-i))+"0 ".repeat(N-i));
+            
+        }
+        sc.close();
+    }
+}
