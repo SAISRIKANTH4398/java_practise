@@ -89,3 +89,23 @@ class fullPyramid{
         sc.close();
     }
 }
+
+
+class shadedDiamond{
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+        for(int i=1; i<=2*N-1; i++){
+            if(i<=N){
+                System.out.println(" ".repeat(N-i)+"* ".repeat(i));
+            }else{
+                if(i<2*N-1){
+                    System.out.println(" ".repeat(i-N)+"* "+"  ".repeat(2*N-i-2)+"*");
+                }else{
+                    System.out.println(" ".repeat(N-1)+"*");
+                }
+            }
+        }
+        sc.close();
+    }
+}
