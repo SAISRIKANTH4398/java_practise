@@ -37,3 +37,19 @@ class digit8{
         sc.close();
     }
 }
+
+
+class halfDiamond{
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+        for(int i=1; i<=2*N-1;i++){
+            if(i<=N){
+                System.out.println("* ".repeat(i));
+            }else{
+                System.out.println("* ".repeat(2*N-i));
+            }
+        }
+        sc.close();
+    }
+}
