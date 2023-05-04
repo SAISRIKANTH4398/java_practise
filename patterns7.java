@@ -21,3 +21,19 @@ class numberDiamond{
         sc.close();
     }
 }
+
+
+class digit8{
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+        for(int i=1; i<=2*N+1;i++){
+            if(i==1 || i==N+1 || i==2*N+1){
+                System.out.println("* ".repeat(N));
+            }else{
+                System.out.println("* "+"  ".repeat(N-2)+"*");
+            }
+        }
+        sc.close();
+    }
+}
