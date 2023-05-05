@@ -86,3 +86,21 @@ class butterfly{
         sc.close();
     }
 }
+
+
+class digit9{
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+        for(int i=1; i<=2*N-1; i++){
+            if(i==1 || i==N || i==2*N-1){
+                System.out.println("* ".repeat(N));
+            }else if(i>1 && i<N){
+                System.out.println("* "+ "  ".repeat(N-2)+"*");
+            }else{
+                System.out.println("  ".repeat(N-1)+"*");
+            }
+        }
+        sc.close();
+    }
+}
