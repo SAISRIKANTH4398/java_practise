@@ -66,3 +66,23 @@ class fullPyramid{
         sc.close();
     }
 }
+
+
+class butterfly{
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+        for(int i=1; i<=2;i++){
+            if(i==1){
+                for(int j=1; j<=N;j++){
+                    System.out.println("* ".repeat(j)+"  ".repeat(2*(N-j))+"* ".repeat(j));
+                }
+            }else{
+                for(int k=N; k>=1;k--){
+                    System.out.println("* ".repeat(k)+"  ".repeat(2*(N-k))+ "* ".repeat(k));
+                }
+            }
+        }
+        sc.close();
+    }
+}
