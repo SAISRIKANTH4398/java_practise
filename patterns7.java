@@ -116,3 +116,19 @@ class pyramid{
         sc.close();
     }
 }
+
+
+class WwithStar{
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt();
+        for(int i=1; i<=N; i++){
+            if(i==1){
+                System.out.println("* ".repeat(2*N-1));
+            }else{
+                System.out.println(" ".repeat(i-1)+"* ".repeat(N-i+1)+"  ".repeat(i-2)+"* ".repeat(N-i+1));
+            }
+        }
+        sc.close();
+    }
+}
