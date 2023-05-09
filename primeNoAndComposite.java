@@ -45,7 +45,7 @@ class PrimeNumbers{
         int M = sc.nextInt();
         int N = sc.nextInt();
         for(int i=M; i<=N;i++){
-            int count = 0;
+            int count = 0;           //Program to find the prime numbers in given range
             for(int j=2;j<i;j++){
                 if(i%j==0){
                     count++;
