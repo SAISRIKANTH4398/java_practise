@@ -62,7 +62,7 @@ class PrimeNumbers{
 
 class compositeNum{
     public static void main(String[] args){
-        Scanner sc = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);   //Program to find the composite numbers
         int M = sc.nextInt();
         int N = sc.nextInt();
         for(int i=M; i<=N; i++){
