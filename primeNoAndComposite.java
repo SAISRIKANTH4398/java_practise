@@ -86,7 +86,7 @@ class firstPrimeNum{
         Scanner sc = new Scanner(System.in);
         int N = sc.nextInt();
         for(int i=1; i<=N; i++){
-            int a = sc.nextInt();
+            int a = sc.nextInt();               //Printing the first prime number in given inputs.
             int count = 0;
             for(int j=1;j<=a; j++){
                 if(a%j==0){
