@@ -50,7 +50,7 @@ class MathOps{
 class decimalFormatClass{
     public static void main(String[] args){
         double a = 4.893d;
-        DecimalFormat df = new DecimalFormat("#.##");
-        System.out.println(df.format(a));
+        DecimalFormat df = new DecimalFormat("#.##");  //it formats the decimal points to given pattern
+        System.out.println(df.format(a));  //format() method takes long or double and returns a string
     }
 }
