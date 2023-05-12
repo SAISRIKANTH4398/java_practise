@@ -25,3 +25,14 @@ class stringComparisons {
 
     }
 }
+
+
+class MathOps{
+    public static void main(String[] args){
+        int a = 6;
+        int b = 3;
+        double result = Math.pow(a,b);  //Math class provides diff math operations
+        System.out.println(result);    // Pow means power, a power b, returns double type even we pass int.
+        // Returns 1 if second parameter is 0.
+    }
+}
