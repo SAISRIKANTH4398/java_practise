@@ -18,6 +18,9 @@ class stringComparisons {
         Returns 1 if str1>str2, 
         0 if str1==str2
         -1 if str1<str2 */
+
+        /*Another method compareToIgnoreCase() does the same thing as compareTo() but ignores the case. */
+
         
     }
 }
