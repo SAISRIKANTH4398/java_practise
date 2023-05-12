@@ -21,6 +21,7 @@ class stringComparisons {
 
         /*Another method compareToIgnoreCase() does the same thing as compareTo() but ignores the case. */
 
-        
+        System.out.println('A'>'B'); //returns false because unicode of A is lesser than unicode of B
+
     }
 }
