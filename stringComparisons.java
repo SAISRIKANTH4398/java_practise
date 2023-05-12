@@ -1,3 +1,5 @@
+import java.text.DecimalFormat;
+
 /*initializing Strings with new keyword
 When we use new keyword, new memory is allocated.
 
@@ -41,5 +43,14 @@ class MathOps{
         long rounded = Math.round(d);
         System.out.println(round);
         System.out.println(rounded);
+    }
+}
+
+
+class decimalFormatClass{
+    public static void main(String[] args){
+        double a = 4.893d;
+        DecimalFormat df = new DecimalFormat("#.##");
+        System.out.println(df.format(a));
     }
 }
