@@ -18,7 +18,7 @@ class largestFactor{
 }
 
 
-
+//program to find kth largest factor for a number N
 class kthlargestFactor{
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
