@@ -11,7 +11,7 @@ class arr_num_square {
            index = index + 1;
         }
         for(int eachItem:num_seq){
-            System.out.print(eachItem+" ");
+            System.out.print(eachItem*eachItem+" ");
         }
         num.close();
     }
