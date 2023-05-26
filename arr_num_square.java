@@ -1,3 +1,5 @@
+/*Program to square each element in an array*/
+
 import java.util.Scanner;
 
 class arr_num_square {
