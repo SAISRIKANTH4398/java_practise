@@ -28,6 +28,7 @@ class solidRightTriangle{
     }
 }
 
+//Program to print a solid rectangle using +
 class solidRectangle{
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
@@ -43,6 +44,7 @@ class solidRectangle{
 }
 
 
+// Program to print solid right triangle using *
 class solidRightTriangle2{
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
