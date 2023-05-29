@@ -1,3 +1,7 @@
+/* Program to find denominations for a given N 
+in fifties, hundreds, tens and ones
+*/
+
 import java.util.Scanner;
 
 class denominations{
