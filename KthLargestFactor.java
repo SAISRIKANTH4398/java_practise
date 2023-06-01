@@ -1,3 +1,5 @@
+//program to find a th largest factor for N.
+
 import java.util.Scanner;
 class largestFactor{
     public static void main(String[] args){
@@ -18,7 +20,8 @@ class largestFactor{
 }
 
 
-
+/*program to find kth largest factor for a number N
+If no factor is present for given K, output should be 1.*/
 class kthlargestFactor{
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);

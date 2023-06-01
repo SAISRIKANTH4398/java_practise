@@ -1,3 +1,5 @@
+/*Program to find the leap year for a given Y */
+
 import java.util.Scanner;
 
 class leapYear {
