@@ -19,6 +19,10 @@ class bigIntMethods{
     public static void main(String[] args){
         BigInteger BigNum = new BigInteger("5406306283549856929329");
         BigInteger BigNum2 = new BigInteger("3493845893602434835865");
+        BigInteger BigNum1 = new BigInteger("456");
+        BigInteger BigNum3 = new BigInteger("-13283848548540");
+        int exp = 17;
+        BigInteger power = BigNum1.pow(exp);
         BigInteger sum = BigNum.add(BigNum2);
         BigInteger difference = BigNum.subtract(BigNum2);
         BigInteger mulitply = BigNum.multiply(BigNum2);
@@ -27,5 +31,36 @@ class bigIntMethods{
         System.out.println(difference);
         System.out.println(mulitply);
         System.out.println(division);
+        System.out.println(power);
+        System.out.println(BigNum3.abs());
+    }
+}
+
+
+class BigIntTypeConversions{
+    public static void main(String[] args){
+        int num = 2022;
+        long longNum = 435468567463L;
+
+        BigInteger bigNum1 = BigInteger.valueOf(num);  
+        BigInteger bigNum2 = BigInteger.valueOf(longNum);
+
+        System.out.println(bigNum1);
+        System.out.println(bigNum2);
+        num = bigNum1.intValue();
+
+        System.out.println(num);
+        String str = "45900";
+        BigInteger bigNum3 = new BigInteger(str);
+
+        str = bigNum3.toString();
+        long longNum1 = bigNum3.longValue();
+        float floatNum = bigNum3.floatValue();
+        double doubleNum = bigNum3.doubleValue();
+
+        System.out.println(str);
+        System.out.println(longNum1);
+        System.out.println(floatNum);
+        System.out.println(doubleNum);
     }
 }
