@@ -14,3 +14,14 @@ public class bigIntegers {
     System.out.println(BigNum);
    }
 }
+
+class bigIntMethods{
+    public static void main(String[] args){
+        BigInteger BigNum = new BigInteger("5406306283549856929329");
+        BigInteger BigNum2 = new BigInteger("3493845893602434835865");
+        BigInteger sum = BigNum.add(BigNum2);
+        BigInteger difference = BigNum.subtract(BigNum2);
+        System.out.println(sum);
+        System.out.println(difference);
+    }
+}
