@@ -64,3 +64,20 @@ class BigIntTypeConversions{
         System.out.println(doubleNum);
     }
 }
+
+
+class Main {
+
+    /*These are some of the big integer constants  */
+    public static void main(String[] args) {
+        BigInteger bigNum0 = BigInteger.ZERO;  
+        BigInteger bigNum1 = BigInteger.ONE;
+        BigInteger bigNum2 = BigInteger.TWO;
+        BigInteger bigNum10 = BigInteger.TEN;
+
+        System.out.println(bigNum0);
+        System.out.println(bigNum1);
+        System.out.println(bigNum2);
+        System.out.println(bigNum10);
+    }
+}
