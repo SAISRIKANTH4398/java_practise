@@ -21,7 +21,11 @@ class bigIntMethods{
         BigInteger BigNum2 = new BigInteger("3493845893602434835865");
         BigInteger sum = BigNum.add(BigNum2);
         BigInteger difference = BigNum.subtract(BigNum2);
+        BigInteger mulitply = BigNum.multiply(BigNum2);
+        BigInteger division = BigNum.divide(BigNum2);
         System.out.println(sum);
         System.out.println(difference);
+        System.out.println(mulitply);
+        System.out.println(division);
     }
 }
