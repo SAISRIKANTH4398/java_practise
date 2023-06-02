@@ -22,17 +22,17 @@ class bigIntMethods{
         BigInteger BigNum1 = new BigInteger("456");
         BigInteger BigNum3 = new BigInteger("-13283848548540");
         int exp = 17;
-        BigInteger power = BigNum1.pow(exp);
-        BigInteger sum = BigNum.add(BigNum2);
-        BigInteger difference = BigNum.subtract(BigNum2);
-        BigInteger mulitply = BigNum.multiply(BigNum2);
-        BigInteger division = BigNum.divide(BigNum2);
+        BigInteger power = BigNum1.pow(exp);  //To find power
+        BigInteger sum = BigNum.add(BigNum2);  //To add 2 big ints
+        BigInteger difference = BigNum.subtract(BigNum2);  //To subtract 2 BigInts
+        BigInteger mulitply = BigNum.multiply(BigNum2);  //To multiply
+        BigInteger division = BigNum.divide(BigNum2);  //To divide
         System.out.println(sum);
         System.out.println(difference);
         System.out.println(mulitply);
         System.out.println(division);
         System.out.println(power);
-        System.out.println(BigNum3.abs());
+        System.out.println(BigNum3.abs());  //To find the absolute value
     }
 }
 
@@ -42,21 +42,21 @@ class BigIntTypeConversions{
         int num = 2022;
         long longNum = 435468567463L;
 
-        BigInteger bigNum1 = BigInteger.valueOf(num);  
-        BigInteger bigNum2 = BigInteger.valueOf(longNum);
+        BigInteger bigNum1 = BigInteger.valueOf(num);  //To convert Int to BigInt
+        BigInteger bigNum2 = BigInteger.valueOf(longNum);  //To convert long to BigInt
 
         System.out.println(bigNum1);
         System.out.println(bigNum2);
-        num = bigNum1.intValue();
+        num = bigNum1.intValue();  //To convert Big int to int
 
         System.out.println(num);
         String str = "45900";
         BigInteger bigNum3 = new BigInteger(str);
 
-        str = bigNum3.toString();
-        long longNum1 = bigNum3.longValue();
-        float floatNum = bigNum3.floatValue();
-        double doubleNum = bigNum3.doubleValue();
+        str = bigNum3.toString();          //To convert big int to string
+        long longNum1 = bigNum3.longValue();  //To convert big int to long
+        float floatNum = bigNum3.floatValue();  //To convert big int to float
+        double doubleNum = bigNum3.doubleValue();  //To convert big int to double
 
         System.out.println(str);
         System.out.println(longNum1);
